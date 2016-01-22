@@ -1,6 +1,6 @@
 from rest_framework_gis import serializers
 
-from models import Toilet
+from .models import Toilet
 
 class ToiletSerializer(serializers.GeoFeatureModelSerializer):
     class Meta:

@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from models import Toilet
-from serializers import ToiletSerializer
+from .models import Toilet
+from .serializers import ToiletSerializer
 from rest_framework import generics, viewsets, permissions
 
 # Create your views here.

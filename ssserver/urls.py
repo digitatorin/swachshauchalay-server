@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
-from apps.toilets import views
+from ssserver.apps.toilets import views
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
